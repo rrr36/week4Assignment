@@ -7,8 +7,6 @@
 	echo "The value of \$year: ";
 	print_r($year);
 	echo "<br>";
-	$line = "This is the sample string";
-	echo "$line <br>";
   $rep = str_replace("-","/",$date);
   echo "2. replaced $rep<br>";
 
